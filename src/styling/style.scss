@@ -1,0 +1,35 @@
+
+$primary: hsla(44, 19%, 88%, 1);
+$secondary: hsla(213, 78%, 10%, 1);
+$primary-dark: hsla(35, 40%, 65%, 1);
+$secondary-light: hsla(213, 61%, 36%, 1);
+
+// Base
+html, body {
+    margin: 0;
+    padding: 0
+  }
+
+.page {
+    background-color: $primary;
+    color: $secondary-light;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+// Responsive
+@media (min-width: 1024px) {
+    .header {
+        height: 200px;
+        width: 100dvw;
+
+        &--container {
+            display: block;
+        }
+
+        &--inner {
+            display: flex;
+            padding: 30px 20px;
+        }
+    }
+}

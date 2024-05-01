@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: hsl(44, 19%, 88%);
+  color: hsl(213, 61%, 36%);
+  height: 100dvh;
+  width: 100dvw;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    height: 200px;
+    width: 100dvw;
+  }
+  .header--container {
+    display: block;
+  }
+  .header--inner {
+    display: flex;
+    padding: 30px 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
